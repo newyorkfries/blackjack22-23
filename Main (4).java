@@ -1,7 +1,7 @@
 /*
 PROGRAM NAME - Blackjack ISU 
 
-PROGRAMMERS - Noah Fadlallah & Asvin Sasikumar
+PROGRAMMERS - Noah& Asvin
 
 DATE - Started 1/6/2023
 
