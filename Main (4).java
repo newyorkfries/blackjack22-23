@@ -380,10 +380,10 @@ class Main {
           System.out.println(Red+"\nYou have busted. You have lost $"+ bet+RESET);
         }else if (dealerScore > 21 && playerScore <= 21){//if dealer busts and player does not
           coins+=bet*2;
-          System.out.println(Green+"\nCongradulations dealer has busted!  You have won $" +bet*2+RESET);
+          System.out.println(Green+"\nCongratulations dealer has busted!  You have won $" +bet*2+RESET);
         }else if (playerScore > dealerScore&&(playerScore<=21&&dealerScore<=21)){//if player has higher score and neither have gone over 21
           coins+=bet*2;//payout
-          System.out.println(Green+"\nCongradulations you have won! You have won $" +bet*2+RESET);  
+          System.out.println(Green+"\nCongratulations you have won! You have won $" +bet*2+RESET);  
         }else if (dealerScore > playerScore&&(playerScore<=21&&dealerScore<=21)){//if dealer wins
           System.out.println(Red+"\nYou lose! You have lost $"+ bet+RESET);
         }else{ //if (playerScore == dealerScore){
@@ -397,10 +397,10 @@ class Main {
           System.out.println(Red+"Your second hand has busted. You have lost $"+ splitBet+RESET);
         }else if (dealerScore > 21 &&splitScore>0&&splitScore<=21){//split hand win because dealer bust
           coins+=splitBet*2;
-          System.out.println(Green+"Congradulations dealer has busted!  Your second split has won $" +splitBet*2+RESET);
+          System.out.println(Green+"Congratulations dealer has busted!  Your second split has won $" +splitBet*2+RESET);
         }else if (splitScore > dealerScore&&(splitScore<=21||dealerScore<=21)&&splitScore>0){//split hand win
           coins+=splitBet*2;
-          System.out.println(Green+"Congradulations your second split has won! You have won $" +splitBet*2+RESET);  
+          System.out.println(Green+"Congratulations your second split has won! You have won $" +splitBet*2+RESET);  
         }else if (dealerScore > splitScore&&(playerScore<=21||dealerScore<=21)&&splitScore>0){//split hand lost
           System.out.println(Red+"Your second split has lost! You have lost $"+ splitBet+RESET);
         }else if (dealerScore==splitScore||(splitScore>21&&dealerScore>21)){
